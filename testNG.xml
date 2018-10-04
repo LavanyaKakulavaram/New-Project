@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Gmail suite">
+  <test thread-count="5" verbose="2" name="Gmail inbox">
+    <classes>
+      <class name="TestNGtest.testNG1">
+      <methods>
+      <exclude name="ikol3"/>
+      </methods>
+      </class>
+      <class name="TestNGtest.fdsa"/>
+      <class name="TestNGtest.llllpp"/>
+      
+    </classes>
+  </test> <!-- Default test -->
+  <test thread-count="5" verbose="2" name="Gmail Sent">
+    <classes>
+      <class name="TestNGtest.testNG1"/>      
+      <class name="TestNGtest.fdsa"/>
+      <class name="TestNGtest.llllpp"/>      
+    </classes>
+  </test> <!-- Default test -->
+</suite> <!-- Default suite -->
