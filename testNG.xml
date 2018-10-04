@@ -11,7 +11,7 @@
       <class name="TestNGtest.fdsa"/>
       <class name="TestNGtest.llllpp"/>
       <class name="TestNgtest.kaku"/>
-      
+      <class name="TestNgtest.kakula"/>
     </classes>
   </test> <!-- Default test -->
   <test thread-count="5" verbose="2" name="Gmail Sent">
