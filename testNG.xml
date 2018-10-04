@@ -10,6 +10,7 @@
       </class>
       <class name="TestNGtest.fdsa"/>
       <class name="TestNGtest.llllpp"/>
+      <class name="TestNgtest.kaku"/>
       
     </classes>
   </test> <!-- Default test -->
